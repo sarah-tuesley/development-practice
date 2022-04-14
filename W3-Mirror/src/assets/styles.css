@@ -7,6 +7,7 @@
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
   list-style-type: none;
+  font-weight: normal;
 }
 
 .navbar {
@@ -22,7 +23,7 @@
 }
 
 .navbar .logo {
-  width: 50px;
+  width: 40px;
 }
 
 .navbar .nav {
@@ -37,6 +38,29 @@
   height: 100%;
 }
 
-.navbar ul li {
-  margin: 12px;
+.body {
+  display: flex;
+}
+
+.side-bar {
+  background-color: lightgrey;
+  font-size: 14px;
+  min-width: 160px;
+  height: 450px;
+}
+
+.side-bar h2,
+ul li {
+  padding: 12px;
+}
+
+.side-bar a {
+  color: black;
+  font-size: 18px;
+}
+.side-bar .home {
+  background-color: #04a96d;
+}
+.side-bar li:hover {
+  background-color: #058958;
 }
