@@ -21,11 +21,9 @@
 .navbar a:hover {
   color: gray;
 }
-
 .navbar .logo {
   width: 40px;
 }
-
 .navbar .nav {
   display: flex;
   justify-content: space-between;
@@ -48,12 +46,10 @@
   min-width: 160px;
   height: 450px;
 }
-
 .side-bar h2,
 ul li {
   padding: 12px;
 }
-
 .side-bar a {
   color: black;
   font-size: 18px;
@@ -63,4 +59,36 @@ ul li {
 }
 .side-bar li:hover {
   background-color: #058958;
+}
+
+.filler-top {
+  padding: 40px;
+}
+.page-title {
+  padding-bottom: 20px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.buttons input {
+  background-color: #04a96d;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-style: none;
+  border-radius: 5px;
+}
+.buttons input:hover {
+  background-color: #058958;
+}
+.filler-bottom {
+  background-color: #bee4cf;
+  padding: 40px 40px 20px 40px;
+}
+.filler-bottom p {
+  padding-bottom: 20px;
+  font-size: 18px;
 }
