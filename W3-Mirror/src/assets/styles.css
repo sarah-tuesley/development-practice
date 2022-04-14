@@ -43,7 +43,7 @@
 .side-bar {
   background-color: lightgrey;
   font-size: 14px;
-  min-width: 160px;
+  width: 220px;
   height: 450px;
 }
 .side-bar h2,
@@ -61,6 +61,9 @@ ul li {
   background-color: #058958;
 }
 
+.filler {
+  width: 100%;
+}
 .filler-top {
   padding: 40px;
 }
@@ -85,10 +88,51 @@ ul li {
   background-color: #058958;
 }
 .filler-bottom {
-  background-color: #bee4cf;
+  background-color: #d9eee1;
   padding: 40px 40px 20px 40px;
 }
 .filler-bottom p {
   padding-bottom: 20px;
   font-size: 18px;
+}
+
+.right-bar {
+  margin: 20px 10px 0 10px;
+  width: 220px;
+}
+.right-bar .black {
+  margin: auto 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 180px;
+  background-color: black;
+  padding: 50px 20px;
+  font-size: 20px;
+  line-height: 35px;
+  color: #c26875;
+}
+.black .circle {
+  background-color: white;
+  width: 145px;
+  height: 145px;
+  border-radius: 100%;
+  margin: 20px auto 0;
+}
+.circle .right-logo img {
+  width: 90px;
+}
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.green {
+  background-color: #04a96d;
+  color: white;
+  font-size: 18px;
+  max-width: 180px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
