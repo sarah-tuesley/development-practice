@@ -86,6 +86,7 @@ ul li {
 }
 .buttons input:hover {
   background-color: #058958;
+  cursor: pointer;
 }
 .filler-bottom {
   background-color: #d9eee1;
